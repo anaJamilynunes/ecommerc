@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+<main>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-bottom: 20px;  ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static 'img/1-slide.png' %}" class="d-block w-100"  alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img  src="{% static 'img/2-slide.png' %}" class="d-block w-100" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img  src="{% static 'img/3-slide.png' %}" class="d-block w-100" alt="Segundo Slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="container">
+        <div class="row mar"> 
+          <div class="col">
+            <img src="{% static 'img/cup1.png' %}" width="300px" alt="">
+          </div>
+          <div class="col">
+            <img src="{% static 'img/cup2.png' %}" width="300px" alt="">
+          </div>
+          <div class="col">
+            <img src="{% static 'img/cup3.png' %}" width="300px" alt="">
+          </div>
+
+        </div>
+      </section>
+
+      
+  <section class="container">
+    <div class="row mar">
+      <h1 style="text-align: center;"> <strong> Lançamentos </strong> </h1>    
+    
+          {% for produto in produtos %}
+
+          <div style="text-align: center;" class="col-lg-3">
+              <img style="width: 200px;" src="/media/{{produto.imagem}}" alt="">
+              <img style="width: 100px;" src="{% static 'img/estrelas.png' %}" alt="">
+              <p style="text-align: center;">{{ produto.nome }} <br> <strong> {{produto.valor}} </strong><br> {{ produto.texto }}</p>
+              <button type="button" class="but btn btn-primary" style="font-size: 20px; margin-bottom: 10px;"> Comprar </button>
+              <hr>
+            </div>
+              
+          {% endfor %}
+
+      </div> 
+  </section>
+
+</main>
+
+{% endblock main %}
+
+   

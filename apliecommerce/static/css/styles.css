@@ -1,0 +1,182 @@
+/*.cor {
+    background: linear-gradient(
+  90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(9, 9, 121, 1) 35%,
+  rgba(0, 212, 255, 1) 100%
+);
+} 
+  .cor { mais perto do certo :?
+    width: 75%;
+    height: 100px;
+    background-image: linear-gradient(to right, #210D41 0, #FF00F4 25%,#210D41 25%, #FF00F4 25%, #210D41 25%);
+  } 
+.cor {
+    width: 25%;
+    height: 100px;
+    background-image: linear-gradient(to right, #210D41 0, #210D41 25%, #FF00F4 25%,#210D41 25%, #462182 25%);
+  } */
+  /*CSS DA BASE
+    /*
+.cor {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, #FF00F4 0, #210D41 25%);
+} */
+  header, footer{
+    font-family:'Times New Roman', Times, serif; 
+    background-color: #D4CBDE;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #f5f5f5;
+    font-size: 20px;
+    /*SOMBRA
+    box-shadow: 0px 2px 70px #616161; */
+} 
+main{
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif; 
+}
+h6, h2{
+  color: #9a68cb;
+} 
+p{
+  font-size: 15px;
+  text-align: justify;
+  font-family:'Times New Roman', Times, serif; 
+}
+.p{
+  font-size: 15px;
+}
+.mgimg{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.ajus{
+  font-size: 15px;
+  text-align: justify;
+  font-family:'Times New Roman', Times, serif; 
+}
+.tamanho{
+  margin-bottom: 0px;
+  background-color: #F9F6F2;
+} 
+.teste{
+  margin:auto;
+  width: 1070px;
+  padding: 0px;
+} 
+.espç{
+  margin-left: 50px;
+  font-size: 15px;
+}
+#bordap{
+  border-radius: 50px;
+  margin-top: 15px;
+}
+.bordanav{
+  border: 0px;
+  padding:0px ;
+}
+.margin{
+  margin-left: 25px;
+}
+
+/*   CSS DO INDEX   */
+.but{
+  background:  #b89dd4;
+  font-weight: 600;
+  padding: 0.2rem 1rem;
+  border-radius: 30px;
+  border-color: #b89dd4;
+}
+.but:hover{
+  background-color: #FDADAD;
+  border: none;
+}
+h1{
+  color:  #666565;
+  font-size: 30px; 
+  margin: 30px;
+}
+h2{
+  font-size: 30px; 
+  margin: 20px;
+}
+.mar{
+  margin-top: 35px;
+}
+
+/*   CSS SOBRE NÓS   */
+.bordam{
+  border: 1px solid rgba(238, 236, 236, 1);
+  border-radius: 20px;
+  background-color: rgba(238, 236, 236, 1);
+  margin: 30px 30px;
+}
+.mag{
+  margin-bottom: 50px;
+  background-color: #f5f5f5;
+} 
+.tracejado{
+  border: 0.1rem solid #e8e9ee;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 12%;
+  border-style: dashed;
+  border-color: #393737;
+  padding: 20px;
+}
+.margP{
+  margin-bottom: 15px;
+}
+
+/* CSS MCLARA */
+
+.imgproduto{
+  border: 1px solid rgb(210, 162, 255);
+  margin-bottom: 10px;
+  padding: 0px;
+  border-radius: 50px;
+}
+.card{
+  border: 0.1rem solid #e8e9ee;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 12%;
+  border-style: dashed;
+  border-color: #9a68cb;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.imgdet{
+  width: 1200px;
+} 
+.tam{
+  margin:auto;
+  width: 1070px;
+  padding: 0px; 
+}
+.des{
+  margin-top: 15%;
+}
+.fav{
+   margin-left: 50px;
+   color: #b89dd4;
+}
+.fav:hover{
+  color: #9a68cb;
+}
+.cartao{
+  border: 0.1rem solid #e8e9ee;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 12%;
+  border-style: dotted;
+  border-color: #9a68cb;
+  padding: 12px;
+  margin-bottom: 10px;
+}

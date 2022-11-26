@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+<main>
+ 
+  <section class="teste tracejado" >
+
+    <div class="container">
+      <div class="row">
+      <img style="width: 300px;" class="container-fluid order-center mgimg" src="{% static 'img/ac (2).png' %}" alt="">
+      </div>
+    </div>
+    
+    <h2 style="text-align: center;"><strong>Quem Somos Nós</strong></h2>
+    <p style="text-align: center;">	Lunatic Papelaria traz ao mercado uma variedade de produtos especiais e exclusivos, garantindo aos seus clientes o melhor em papelaria e personalizados.
+      </p>
+      <p style="text-align: center;">Criado em 10 de agosto de 2022.</p>
+      <p style="text-align: center;">
+      Hoje, somos um time de apaixonados por tudo que envolve papelaria. Sendo assim, nosso propósito vai muito além de comercializar um produto, mas sim, de compartilhar e trocar experiências com outros apaixonados. 
+      </p>
+      <p style="text-align: center;">
+        Com um público de mais de 300 mil pessoas, colocamos amor e dedicação em cada parte do processo. Desde a comunicação online, até a caixinha recheada de carinho e cheirinho que chega em cada casa.
+      </p>
+  </section>
+  <section class="container teste">
+    <h2 style="text-align: center;"><strong> Fundadoras </strong></h2>
+    <p style="text-align: center;">A Lunatic Papelaria é um projeto acadêmico realizado por: </p>
+    <div class="row order-center">
+      <div class="col-md-4 order-center" style="margin-left: 250px;">
+        <img class="margP" width="200px" src="{% static 'img/perfil.png' %}" alt="">
+        <p><strong>Ana Jamily Nunes da Silva</strong></p>
+
+      </div>
+      <div class="col-md-4 order-center">
+        <img class="margP" width="200px" src="{% static 'img/perfil2.png' %}" alt="">
+        <p><strong>Maria Clara da Silva Fernandes</strong></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+{% endblock main %}
